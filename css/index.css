@@ -1,0 +1,151 @@
+body {
+    max-width: 1500px;
+}
+
+.navbar {
+    border-bottom: solid 1px grey;
+}
+
+
+.navbar-brand {
+    font-size: 1.5rem
+}
+
+
+.banner-container {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 72px);
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.4) 0%, rgba(92, 77, 66, 0.9) 100%), url("/img/map.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+.about-medical-cluster-header-container {
+padding: 2rem;    
+}
+.about-medical-cluster {
+    padding-top: 5rem;
+    padding-bottom: calc(10rem - 72px);
+    background-size: cover;
+}
+
+.article-about-medical-cluster {
+    margin: 30px;
+    border: 20px;
+}
+
+@media (min-width: 665px) {
+    .article-about-medical-cluster {
+        column-count: 2;
+    }
+}
+
+@media (min-width: 800px) {
+    .article-about-medical-cluster {
+        column-count: 4;
+    }
+}
+
+.about-medical-cluster-directions {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.directions {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.about-clinics-container {
+    padding: 2rem;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.4) 0%, rgba(92, 77, 66, 0.9) 45%);
+}
+
+.about-clinics-header-container {
+    margin: 0;
+    padding: 3rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+.clinic-item {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: solid;
+}
+
+
+.formBox {
+    justify-content: center;
+    background-size: cover;
+    padding: 5rem;
+}
+
+.formBox h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.inputBox {
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 35px;
+}
+
+.inputBox .inputText {
+    position: absolute;
+    font-size: 24px;
+    line-height: 35px;
+    transition: .5s;
+    opacity: .5;
+}
+
+.inputBox .input {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+
+}
+
+.focus .inputText {
+    transform: translateY(-30px);
+    font-size: 18px;
+    opacity: 1;
+    color: #00bcd4;
+
+}
+
+textarea {
+    height: 100px !important;
+}
+
+.button {
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    background: #03A9F4;
+    color: #fff;
+}
+
+
+.page-footer {
+    padding-top: 5rem;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.4) 0%, rgba(92, 77, 66, 0.9) 100%), url("/img/map.png");
+}
